@@ -4,7 +4,7 @@ An introduction to our model for
 dimensional speech emotion recognition 
 based on Wav2vec 2.0.
 The model is hosted at 
-[Zenodo](https://zenodo.org/record/6221127).
+[Zenodo](https://zenodo.org/record/6221127)
 and release under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
