@@ -2,8 +2,7 @@
 
 ## Installation
 
-Create and activate Python virtual environment. 
-Then install dependencies.
+Create and activate Python virtual environment, then install dependencies.
 
 ```
 $ pip install -r requirements
