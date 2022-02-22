@@ -3,8 +3,8 @@
 An introduction to our model for 
 dimensional speech emotion recognition 
 based on Wav2vec 2.0.
-The model is hosted at 
-[Zenodo](https://zenodo.org/record/6221127)
+The model is available from 
+[doi:10.5281/zenodo.6221127](https://doi.org/10.5281/zenodo.6221127)
 and released under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
@@ -13,7 +13,7 @@ and released under
 Create and activate Python virtual environment, then install dependencies.
 
 ```
-$ pip install -r requirements
+$ pip install -r requirements.txt
 ```
 
 ## Quick start
@@ -35,7 +35,7 @@ audeer.extract_archive(archive_path, model_root)
 model = audonnx.load(model_root)
 
 sampling_rate = 16000
-signal = np.random.normal(sampling_rate).astype(np.float32)
+signal = np.random.normal(size=sampling_rate).astype(np.float32)
 model(signal, sampling_rate)
 ```
 ```
