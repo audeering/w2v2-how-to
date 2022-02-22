@@ -1,4 +1,12 @@
-# How to use our wav2vec 2.0 dimensional emotion model
+# How to use our public dimensional emotion model
+
+An introduction to our model for 
+dimensional speech emotion recognition 
+based on Wav2vec 2.0.
+The model is hosted at 
+[Zenodo](https://zenodo.org/record/6221127).
+and release under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Installation
 
@@ -36,10 +44,14 @@ model(signal, sampling_rate)
  'logits': array([[0.6717072 , 0.6421313 , 0.49881312]], dtype=float32)}
 ```
 
-### Notebook
+## Notebook
 
 For a detailed introduction, please check out the notebook.
 
 ```
 $ jupyter notebook notebook.ipynb 
 ```
+
+## Citation
+
+TBA
