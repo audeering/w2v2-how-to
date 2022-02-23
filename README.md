@@ -1,22 +1,21 @@
 # How to use our public dimensional emotion model
 
 An introduction to our model for 
-dimensional speech emotion recognition 
-based on Wav2vec 2.0.
+dimensional speech emotion recognition based on
+[wav2vec 2.0](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/).
 The model is available from 
 [doi:10.5281/zenodo.6221127](https://doi.org/10.5281/zenodo.6221127)
 and released under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-## Installation
-
-Create and activate Python virtual environment, then install dependencies.
-
-```
-$ pip install -r requirements.txt
-```
-
 ## Quick start
+
+Create / activate Python virtual environment and install 
+[audonnx](https://github.com/audeering/audonnx).
+
+```
+$ pip install audonnx
+```
 
 Load model and test on random signal.
 
@@ -44,11 +43,12 @@ model(signal, sampling_rate)
  'logits': array([[0.6717072 , 0.6421313 , 0.49881312]], dtype=float32)}
 ```
 
-## Notebook
+## Tutorial
 
 For a detailed introduction, please check out the notebook.
 
 ```
+$ pip install -r requirements.txt
 $ jupyter notebook notebook.ipynb 
 ```
 
