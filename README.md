@@ -45,7 +45,7 @@ model(signal, sampling_rate)
 
 ## Tutorial
 
-For a detailed introduction, please check out the notebook.
+For a detailed introduction, please check out the [notebook](./notebook.ipynb).
 
 ```
 $ pip install -r requirements.txt
