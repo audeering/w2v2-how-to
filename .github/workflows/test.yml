@@ -1,0 +1,40 @@
+name: Test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ ubuntu-20.04, windows-latest, macOS-latest ]
+        python-version: [3.8]
+        include:
+          - os: ubuntu-latest
+            python-version: 3.7
+          - os: ubuntu-latest
+            python-version: 3.9
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -V
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r tests/requirements.txt
+
+    - name: Test with pytest
+      run: |
+        python -m pytest --nbmake notebook.ipynb
