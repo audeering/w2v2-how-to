@@ -30,6 +30,12 @@ jobs:
         path: cache/emodb
         key: emodb-1.1.1
 
+    - name: Cache model
+      uses: actions/cache@v2
+      with:
+        path: cache/model.zip
+        key: model-1.1.0
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
