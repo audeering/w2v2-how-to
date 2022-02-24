@@ -13,6 +13,9 @@ by fine-tuning the pre-trained
 model on
 [MSP-Podcast](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
 (v1.7).
+The pre-trained model was pruned
+from 24 to 12 transformer layers
+before fine-tuning. 
 
 ## Quick start
 
