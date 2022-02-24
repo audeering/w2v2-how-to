@@ -7,6 +7,15 @@ The model is available from
 [doi:10.5281/zenodo.6221127](https://doi.org/10.5281/zenodo.6221127)
 and released under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The model was created
+by fine-tuning the pre-trained
+[wav2vec2-large-robust](https://huggingface.co/facebook/wav2vec2-large-robust)
+model on
+[MSP-Podcast](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
+(v1.7).
+The pre-trained model was pruned
+from 24 to 12 transformer layers
+before fine-tuning. 
 
 ## Quick start
 
@@ -42,6 +51,13 @@ model(signal, sampling_rate)
           0.00952989,  0.00269193]], dtype=float32),
  'logits': array([[0.6717072 , 0.6421313 , 0.49881312]], dtype=float32)}
 ```
+
+The hidden states might be used as embeddings
+for related speech emotion recognition tasks.
+The order in the logits output is:
+arousal,
+dominance,
+valence.
 
 ## Tutorial
 
