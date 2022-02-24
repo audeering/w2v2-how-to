@@ -53,7 +53,7 @@ The hidden states might be used as embeddings
 for related speech emotion recognition tasks.
 The order in the logits output is:
 arousal,
-domiancen,
+dominance,
 valence.
 
 ## Tutorial
