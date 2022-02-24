@@ -9,8 +9,8 @@ and released under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 The model was created
 by fine-tuning the pre-trained
-[wav2vec2-large-robust model](https://huggingface.co/facebook/wav2vec2-large-robust)
-on
+[wav2vec2-large-robust](https://huggingface.co/facebook/wav2vec2-large-robust)
+model on
 [MSP-Podcast](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
 (v1.7).
 
