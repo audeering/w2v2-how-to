@@ -16,7 +16,7 @@ model on
 The pre-trained model was pruned
 from 24 to 12 transformer layers
 before fine-tuning.
-Further details are given in the associated 
+Further details are found in the according 
 [paper](https://arxiv.org/abs/2203.07378).
 
 ## Quick start
@@ -72,13 +72,12 @@ $ jupyter notebook notebook.ipynb
 
 ## Citation
 
-If you use our model in your own work, please cite the following
-[paper](https://arxiv.org/abs/2203.07378):
+If you use our model in your own work, please cite the following paper:
 
 ```bibtex
 @article{wagner2022dawn,
   title={Dawn of the transformer era in speech emotion recognition: closing the valence gap},
-  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Burkhardt, Felix and Eyben, Florian and Schuller, Bj{\"o}rn W.},
+  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Eyben, Florian and Schuller, Bj{\"o}rn},
   journal={arXiv preprint arXiv:2203.07378},
   year={2022}
 }
