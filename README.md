@@ -77,7 +77,7 @@ If you use our model in your own work, please cite the following paper:
 ```bibtex
 @article{wagner2022dawn,
   title={Dawn of the transformer era in speech emotion recognition: closing the valence gap},
-  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Eyben, Florian and Schuller, Bj{\"o}rn},
+  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Eyben, Florian and Schuller, Bj{\"o}rn and Burkhart, Felix},
   journal={arXiv preprint arXiv:2203.07378},
   year={2022}
 }
