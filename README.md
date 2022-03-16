@@ -15,7 +15,9 @@ model on
 (v1.7).
 The pre-trained model was pruned
 from 24 to 12 transformer layers
-before fine-tuning. 
+before fine-tuning.
+Further details are found in the according 
+[paper](https://arxiv.org/abs/2203.07378).
 
 ## Quick start
 
@@ -63,11 +65,20 @@ valence.
 
 For a detailed introduction, please check out the [notebook](./notebook.ipynb).
 
-```
+```bash
 $ pip install -r requirements.txt
 $ jupyter notebook notebook.ipynb 
 ```
 
 ## Citation
 
-TBA
+If you use our model in your own work, please cite the following paper:
+
+```bibtex
+@article{wagner2022dawn,
+  title={Dawn of the transformer era in speech emotion recognition: closing the valence gap},
+  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Eyben, Florian and Schuller, Bj{\"o}rn},
+  journal={arXiv preprint arXiv:2203.07378},
+  year={2022}
+}
+```
