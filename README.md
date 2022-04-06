@@ -79,7 +79,8 @@ $ jupyter notebook notebook.ipynb
 
 ## Citation
 
-If you use our model in your own work, please cite the following paper:
+If you use our model in your own work, please cite the following
+[paper](https://arxiv.org/abs/2203.07378):
 
 ```bibtex
 @article{wagner2022dawn,
