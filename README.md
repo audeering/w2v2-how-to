@@ -16,6 +16,13 @@ model on
 The pre-trained model was pruned
 from 24 to 12 transformer layers
 before fine-tuning.
+In this tutorial we use the
+[ONNX](https://onnx.ai/%22)
+export of the model.
+The original 
+[Torch](https://pytorch.org/)
+model is hosted at
+[Hugging Face](https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim).
 Further details are given in the associated 
 [paper](https://arxiv.org/abs/2203.07378).
 
