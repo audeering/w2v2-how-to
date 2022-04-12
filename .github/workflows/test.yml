@@ -35,18 +35,31 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
+    - name: Set up conda
+      uses: s-weigand/setup-conda@v1
+      with:
+        activate-conda: false  # don't switch Python version
+
+    - name: Install sox using conda
+      # MP3 support under Linux and macOS, see
+      # https://github.com/conda-forge/sox-feedstock/pull/18
+      run: |
+        conda config --add channels conda-forge
+        conda config --set channel_priority strict
+        conda install sox
+
     - name: Prepare Ubuntu
       run: |
         sudo apt-get update
-        sudo apt-get install -y sox libsox-fmt-mp3 ffmpeg mediainfo
+        sudo apt-get install -y ffmpeg mediainfo
       if: matrix.os == 'ubuntu-latest' || matrix.os == 'ubuntu-20.04'
 
     - name: Prepare OSX
-      run: brew install sox ffmpeg mediainfo
+      run: brew install ffmpeg mediainfo
       if: matrix.os == 'macOS-latest'
 
     - name: Windows
-      run: choco install sox.portable ffmpeg mediainfo-cli
+      run: choco install ffmpeg mediainfo-cli
       if: matrix.os == 'windows-latest'
 
     - name: Install dependencies
