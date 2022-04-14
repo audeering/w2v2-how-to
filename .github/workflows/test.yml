@@ -38,15 +38,15 @@ jobs:
     - name: Prepare Ubuntu
       run: |
         sudo apt-get update
-        sudo apt-get install -y sox libsox-fmt-mp3 ffmpeg mediainfo
+        sudo apt-get install -y ffmpeg mediainfo
       if: matrix.os == 'ubuntu-latest' || matrix.os == 'ubuntu-20.04'
 
     - name: Prepare OSX
-      run: brew install sox ffmpeg mediainfo
+      run: brew install ffmpeg mediainfo
       if: matrix.os == 'macOS-latest'
 
     - name: Windows
-      run: choco install sox.portable ffmpeg mediainfo-cli
+      run: choco install ffmpeg mediainfo-cli
       if: matrix.os == 'windows-latest'
 
     - name: Install dependencies
