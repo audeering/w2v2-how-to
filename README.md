@@ -17,7 +17,7 @@ The pre-trained model was pruned
 from 24 to 12 transformer layers
 before fine-tuning.
 In this tutorial we use the
-[ONNX](https://onnx.ai/%22)
+[ONNX](https://onnx.ai/)
 export of the model.
 The original 
 [Torch](https://pytorch.org/)
