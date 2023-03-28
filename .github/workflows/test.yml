@@ -36,7 +36,7 @@ jobs:
         path: cache/w2v2/-1033597102444974303.pkl
         key: predictions-emodb-1.1.1-model-1.1.0
 
-    - name: Cache smile predictions
+    - name: Cache smile features
       uses: actions/cache@v2
       with:
         path: cache/smile/-1033597102444974303.pkl
