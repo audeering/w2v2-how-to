@@ -40,7 +40,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: cache/smile/-1033597102444974303.pkl
-        key: predictions-emodb-1.1.1-compare-2016
+        key: features-emodb-1.1.1-compare-2016
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
