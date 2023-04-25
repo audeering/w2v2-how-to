@@ -32,7 +32,7 @@ The model can be used for non-commercial purposes,
 see [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 For commercial usage,
 a license for
-[devAIce](https://www.audeering.com/devaice/)
+[devAIce](https://www.audeering.com/products__trashed/devaice/)
 must be obtained.
 The source code in this GitHub repository 
 is released under the following
@@ -87,4 +87,18 @@ For a detailed introduction, please check out the [notebook](./notebook.ipynb).
 ```bash
 $ pip install -r requirements.txt
 $ jupyter notebook notebook.ipynb 
+```
+
+## Citation
+
+If you use our model in your own work, please cite the following
+[paper](https://arxiv.org/abs/2203.07378):
+
+```bibtex
+@article{wagner2022dawn,
+  title={Dawn of the transformer era in speech emotion recognition: closing the valence gap},
+  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Burkhardt, Felix and Eyben, Florian and Schuller, Bj{\"o}rn W.},
+  journal={arXiv preprint arXiv:2203.07378},
+  year={2022}
+}
 ```
