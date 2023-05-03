@@ -26,6 +26,18 @@ model is hosted at
 Further details are given in the associated 
 [paper](https://arxiv.org/abs/2203.07378).
 
+## License
+
+The model can be used for non-commercial purposes,
+see [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+For commercial usage,
+a license for
+[devAIce](https://www.audeering.com/devaice/)
+must be obtained.
+The source code in this GitHub repository 
+is released under the following
+[license](./LICENSE).
+
 ## Quick start
 
 Create / activate Python virtual environment and install 
