@@ -95,10 +95,11 @@ If you use our model in your own work, please cite the following
 [paper](https://arxiv.org/abs/2203.07378):
 
 ```bibtex
-@article{wagner2022dawn,
-  title={Dawn of the transformer era in speech emotion recognition: closing the valence gap},
-  author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Burkhardt, Felix and Eyben, Florian and Schuller, Bj{\"o}rn W.},
-  journal={arXiv preprint arXiv:2203.07378},
-  year={2022}
+@article{wagner2023dawn,
+    title={Dawn of the Transformer Era in Speech Emotion Recognition: Closing the Valence Gap},
+    author={Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Burkhardt, Felix and Eyben, Florian and Schuller, Bj{\"o}rn W},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    pages={1--13},
+    year={2023},
 }
 ```
